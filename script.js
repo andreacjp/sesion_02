@@ -22,7 +22,7 @@ var elEncabezado = document.querySelector("header");
 
 var loPrincipal = document.querySelector("main");
 
-var lorenIpsum = ["párrafo","texto","escrito","pasaje","enunciado"];
+var lorenIpsum = ["chocolate","frutilla","pistacho","chirimoya alegre","chocolate con almendras"];
 
 function setup() {
     noCanvas();
@@ -44,6 +44,6 @@ function portada() {
 
 function pagina() {
     createSpan("Estás en page.html").parent("title");
-    createElement('p','Y este es un '+random(lorenIpsum)+' en la página.').parent(loPrincipal);
+    createElement('p','Mi helado favorito es de'+random(lorenIpsum)+' en la página.').parent(loPrincipal);
     select("a:nth-child(2)").style("font-weight", "bold").style("color", "#000000");
 }
