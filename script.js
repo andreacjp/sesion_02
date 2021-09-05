@@ -27,7 +27,7 @@ var lorenIpsum = ["chocolate","frutilla","pistacho","chirimoya alegre","chocolat
 function setup() {
     noCanvas();
     createElement("h1", elSaludo).parent(elEncabezado).id("title");
-    createA("index.html", "inicio").parent("vinculos");
+    createA("index.html", "portada").parent("vinculos");
     createA("page.html", "página").parent("vinculos");
     if (dondeEstas) {
         portada();
